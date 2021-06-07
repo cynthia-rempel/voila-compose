@@ -8,7 +8,7 @@ Docker compose project to build a voila server
 ```
 docker-compose up voila --build 
 ```
-* Optionally *
+*Optionally*
 3. edit docker-compose to build voila-pytorch image
 
 4. run:
