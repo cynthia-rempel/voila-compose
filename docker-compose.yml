@@ -1,0 +1,15 @@
+version: "3"
+services:
+  # voila:
+  #  image: voila
+  #  build: .
+  #  ports:
+  #    - "8866:8866"
+  #    - "8888:8888"
+  voila-pytorch:
+    image: voila-pytorch
+    build: voila-pytorch
+    ports:
+      - "8866:8866"
+      - "8888:8888"
+
